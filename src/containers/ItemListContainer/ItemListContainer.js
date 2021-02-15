@@ -1,6 +1,7 @@
 import * as React from "react";
 import ItemList from "../../components/ItemList/ItemList";
 import productList from "../../mocks/productList";
+
 const ItemListContainer = ({ greeting }) => {
   const [products, setProducts] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(false);
