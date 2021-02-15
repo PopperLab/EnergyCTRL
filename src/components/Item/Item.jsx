@@ -9,7 +9,7 @@ const Item = ({ product }) => {
       <h3>{product.name}</h3>
       <p>{product.url}</p>
       <p>Precio: {product.price}</p>
-      <p>Stock: {product.stock}</p>
+      <p>Descripcion: {product.description}</p>
       <Contar/>
       </div>
       
