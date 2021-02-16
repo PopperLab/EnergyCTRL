@@ -7,7 +7,8 @@ const Item = ({ product }) => {
 
       <div className={card}>
       <h3>{product.name}</h3>
-      <p>{product.url}</p>
+      <img src={`${product.url}`} width="200" />
+      
       <p>Precio: {product.price}</p>
       <p>Descripcion: {product.description}</p>
       <Contar/>

@@ -4,7 +4,7 @@ import { navbar, logo, options } from "./NavBar.module.scss";
 const NavBar = () => {
   return (
     <nav className={navbar}>
-      <div className={logo}>EnergyCTRL</div>
+      <div>EnergyCTRL</div>
       <ul className={options}>
         <li>
           <a href="/#">Bebidas</a>
